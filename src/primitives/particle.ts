@@ -1,5 +1,5 @@
 import { Graph } from '../graph';
-import { DrawConfig, Position, distance, lerp } from '../lib/utils';
+import { DrawConfig, Position, lerp } from '../lib/utils';
 import { Point } from './point';
 
 const SPEED = 7;

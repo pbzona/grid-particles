@@ -1,8 +1,5 @@
 import { Graph } from './graph';
-import { Particle } from './primitives/particle';
-import { Segment } from './primitives/segment';
 import './style.css';
-// import { setupCounter } from './counter.ts'
 
 function getCanvasElement(): HTMLCanvasElement {
   const canvas = document.getElementById('canvas');
