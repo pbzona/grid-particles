@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 900px;
+  background-color: #181818;
+
+  display: flex;
+  place-content: center;
+}
+
+#canvas {
+  /* height: 100%;
+  width: 100%; */
+  margin: auto;
+  border: 1px solid white
+}
