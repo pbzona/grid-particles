@@ -72,8 +72,9 @@ export class Graph {
   }
 
   #initializeParticles() {
-    const particle = new Particle({ x: 0, y: 0 }, this);
-    return [particle];
+    // const particle = new Particle({ x: 0, y: 0 }, this);
+    // return [particle];
+    return [];
   }
 
   #addEventListeners() {
@@ -102,6 +103,10 @@ export class Graph {
         }
       }
     }
+  }
+
+  removeParticle(p: Particle) {
+    this.particles = this.particles.filter(particle => particle !== p);
   }
 
   draw(ctx: CanvasRenderingContext2D) {
